@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E8D7933-751F-4537-8279-B5513A86DDC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photobooth.Core", "src\Photobooth.Core\Photobooth.Core.csproj", "{DEEA136A-C910-44F0-9EB1-64FDF35B06D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{475E0182-6AA5-48DB-A95A-56D25A3DD628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photobooth.Core.Tests", "tests\Photobooth.Core.Tests\Photobooth.Core.Tests.csproj", "{53629CFB-C5D1-4414-8680-C2CD3DF51DFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEEA136A-C910-44F0-9EB1-64FDF35B06D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEA136A-C910-44F0-9EB1-64FDF35B06D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEA136A-C910-44F0-9EB1-64FDF35B06D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEA136A-C910-44F0-9EB1-64FDF35B06D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53629CFB-C5D1-4414-8680-C2CD3DF51DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53629CFB-C5D1-4414-8680-C2CD3DF51DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53629CFB-C5D1-4414-8680-C2CD3DF51DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53629CFB-C5D1-4414-8680-C2CD3DF51DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEEA136A-C910-44F0-9EB1-64FDF35B06D9} = {4E8D7933-751F-4537-8279-B5513A86DDC5}
+		{53629CFB-C5D1-4414-8680-C2CD3DF51DFD} = {475E0182-6AA5-48DB-A95A-56D25A3DD628}
+	EndGlobalSection
+EndGlobal
